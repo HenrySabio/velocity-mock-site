@@ -45,6 +45,7 @@ require_once('config.php');
     <div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">

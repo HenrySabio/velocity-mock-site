@@ -95,6 +95,10 @@ h6.member-title {
   color: var(--velocity-blue);
 }
 
+.close {
+  float: right;
+}
+
 .modal-body {
   padding: 30px;
 }
