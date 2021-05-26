@@ -43,6 +43,10 @@ a.nav-link {
   color: #000;
 }
 
+.navbar-collapse.in {
+  display: block !important;
+}
+
 /* Style the active class (and buttons on mouse-over) */
 .active, .nav-link:hover {
   color: var(--velocity-blue) !important;
