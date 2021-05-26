@@ -1,5 +1,5 @@
 <div class="container-fluid nav-container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light container d-flex justify-content-between py-4">
+    <nav class="navbar navbar-expand-xl navbar-light bg-light container d-flex justify-content-between py-4">
         <div class="container-fluid">
             <a href="index.php" class="navbar-brand company-logo"><img src="img/logo.svg" alt="Velocity Logo"></a>
             <button class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button">
