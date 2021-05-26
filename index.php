@@ -32,7 +32,7 @@ require_once('config.php');
                             <div class="card-body">
                                 <h3 class="card-title member-name"><?= $row['name'] ?></h3>
                                 <h6 class="card-text member-title"><?= $row['title'] ?></h6>
-                                <h6 class="card-text view-bio" data-id="<?= $row['id'] ?>"><a href="#">View Bio <span><img src="./img/Vector.png" alt="View Bio"></span></a></h6>
+                                <h6 class="card-text view-bio" data-id="<?= $row['id'] ?>"><a href="#">View Bio <span><img src="./img/Vector.png" alt="View Bio for <?= $row['name'] ?>"></span></a></h6>
                             </div>
                         </div>
                     </div>
