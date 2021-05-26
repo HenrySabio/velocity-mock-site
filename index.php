@@ -45,13 +45,13 @@ require_once('config.php');
     <div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-12 ml-auto">
-                                <h3 class="modal-title"></h3>
-                                <h6 class="modal-subtitle member-title"></h6>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <h3 class="modal-title"></h3>
+                                    <h6 class="modal-subtitle member-title"></h6>
                             </div>
                         </div>
                         <div class="row">
