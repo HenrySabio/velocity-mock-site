@@ -75,13 +75,11 @@ require_once('config.php');
     <script>
         $(document).ready(function() {
 
-            // Get the container element
+            // Update "active" status based on last link clicked
             let linkContainer = document.getElementById("navbar");
 
-            // Get all buttons with class="link" inside the container
             let links = linkContainer.getElementsByClassName("nav-link");
 
-            // Loop through the buttons and add the active class to the current/clicked button
             for (let i = 0; i < links.length; i++) {
                 links[i].addEventListener("click", function() {
                     let current = document.getElementsByClassName("active");
@@ -90,6 +88,7 @@ require_once('config.php');
                 });
             }
 
+            // Trigger modal, take id from data-attribute and populate corresponding data to corresponding bio clicked
             $('h6.view-bio').click(function(event) {
                 event.preventDefault();
                 let obj = $(this);
