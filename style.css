@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+:root {
+  --velocity-blue: #2541D4;
+  --bg-color: #E5E5E5;
+  --footer-bg: #162F93;
+}
+
+html,
+body {
+  background-color: var(--bg-color);
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+}
+
+.container {
+  padding: 0 50px;
+}
+
+nav,
+.nav-container {
+  height: auto;
+}
+
+.nav-container,
+.bg-light {
+  background-color: #FFF !important;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a.nav-link {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+}
+
+/* Style the active class (and buttons on mouse-over) */
+.active, .nav-link:hover {
+  color: var(--velocity-blue) !important;
+}
+
+.hide {
+  display: none;
+}
+
+.jumbotron {
+  height: 300px;
+  display:flex;
+  align-content:center;
+  justify-items:center;
+  align-items:center;
+  color: white;
+  margin-bottom: 45px;
+}
+
+.jumbotron-bg {
+  background-image: url('img/pagebanner-default.jpg');
+  background-color: #666666;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+.card {
+  background-color: #FFF;
+  margin: 15px 0;
+}
+
+.feature img {
+  padding: 1.5rem;
+}
+
+h3.member-name {
+  margin-top: 20px;
+}
+
+h6 {
+  margin-bottom: 25px !important;
+}
+
+h6.member-title {
+  color: var(--velocity-blue);
+}
+
+.modal-body {
+  padding: 30px;
+}
+
+.modal-text {
+  font-size: 12px;;
+}
+
+.modal-photo {
+  max-width: 100%;
+}
+
+footer {
+  background-color: var(--footer-bg);
+  font-family: 'Mulish', sans-serif;
+  font-size: 10px;
+  color:var(--bg-color);
+  height: 85px;
+  margin-top: 20px;
+}
+
+footer h6,
+footer a.footer-nav-link {
+  color: #E5E5E5 !important;
+  font-size: 10px;
+}
+
+footer a.footer-nav-link:hover {
+  color: #fff !important;
+}
+
+.small-screen {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 993px) {
+  .collapse {
+      display: none !important;
+  }
+}
+
+@media (max-width: 580px) {
+  .copyright {
+    display: none;
+  }
+
+  .big-screen {
+    display: none !important;
+  }
+
+  .small-screen {
+    display: block !important;
+    padding-top: 25px;
+  }
+
+}
