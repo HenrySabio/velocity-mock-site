@@ -130,12 +130,6 @@ footer a.footer-nav-link:hover {
   display: none !important;
 }
 
-@media (max-width: 993px) {
-  .collapse {
-      display: none !important;
-  }
-}
-
 @media (max-width: 580px) {
   .copyright {
     display: none;
