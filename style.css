@@ -95,8 +95,13 @@ h6.member-title {
   color: var(--velocity-blue);
 }
 
+button.close {
+  background: none;
+}
+
 .close {
   float: right;
+  border: none !important;
 }
 
 .modal-body {
